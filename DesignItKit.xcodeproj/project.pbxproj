@@ -6,9 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		336788F52E8EDA48007BA938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336788C72E8EDA17007BA938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336788CF2E8EDA17007BA938;
+			remoteInfo = DesignItKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		336788D02E8EDA17007BA938 /* DesignItKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignItKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		336788E02E8EDA3A007BA938 /* DesignItKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignItKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		336788F12E8EDA3B007BA938 /* Exceptions for "DesignItKit-Demo" folder in "DesignItKit-Demo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 336788DF2E8EDA3A007BA938 /* DesignItKit-Demo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		336788D22E8EDA17007BA938 /* DesignItKit */ = {
@@ -16,10 +37,25 @@
 			path = DesignItKit;
 			sourceTree = "<group>";
 		};
+		336788E12E8EDA3A007BA938 /* DesignItKit-Demo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				336788F12E8EDA3B007BA938 /* Exceptions for "DesignItKit-Demo" folder in "DesignItKit-Demo" target */,
+			);
+			path = "DesignItKit-Demo";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		336788CD2E8EDA17007BA938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336788DD2E8EDA3A007BA938 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				336788D22E8EDA17007BA938 /* DesignItKit */,
+				336788E12E8EDA3A007BA938 /* DesignItKit-Demo */,
 				336788D12E8EDA17007BA938 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				336788D02E8EDA17007BA938 /* DesignItKit.framework */,
+				336788E02E8EDA3A007BA938 /* DesignItKit-Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +119,29 @@
 			productReference = 336788D02E8EDA17007BA938 /* DesignItKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		336788DF2E8EDA3A007BA938 /* DesignItKit-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336788F22E8EDA3B007BA938 /* Build configuration list for PBXNativeTarget "DesignItKit-Demo" */;
+			buildPhases = (
+				336788DC2E8EDA3A007BA938 /* Sources */,
+				336788DD2E8EDA3A007BA938 /* Frameworks */,
+				336788DE2E8EDA3A007BA938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336788F62E8EDA48007BA938 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				336788E12E8EDA3A007BA938 /* DesignItKit-Demo */,
+			);
+			name = "DesignItKit-Demo";
+			packageProductDependencies = (
+			);
+			productName = "DesignItKit-Demo";
+			productReference = 336788E02E8EDA3A007BA938 /* DesignItKit-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +153,9 @@
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					336788CF2E8EDA17007BA938 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					336788DF2E8EDA3A007BA938 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
@@ -111,12 +175,20 @@
 			projectRoot = "";
 			targets = (
 				336788CF2E8EDA17007BA938 /* DesignItKit */,
+				336788DF2E8EDA3A007BA938 /* DesignItKit-Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		336788CE2E8EDA17007BA938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336788DE2E8EDA3A007BA938 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -133,7 +205,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		336788DC2E8EDA3A007BA938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		336788F62E8EDA48007BA938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336788CF2E8EDA17007BA938 /* DesignItKit */;
+			targetProxy = 336788F52E8EDA48007BA938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		336788D72E8EDA17007BA938 /* Debug */ = {
@@ -329,6 +416,62 @@
 			};
 			name = Release;
 		};
+		336788F32E8EDA3B007BA938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2G54Z742W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DesignItKit-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "geek.island.tribe.DesignItKit-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		336788F42E8EDA3B007BA938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2G54Z742W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DesignItKit-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "geek.island.tribe.DesignItKit-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -346,6 +489,15 @@
 			buildConfigurations = (
 				336788DA2E8EDA17007BA938 /* Debug */,
 				336788DB2E8EDA17007BA938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336788F22E8EDA3B007BA938 /* Build configuration list for PBXNativeTarget "DesignItKit-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336788F32E8EDA3B007BA938 /* Debug */,
+				336788F42E8EDA3B007BA938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
