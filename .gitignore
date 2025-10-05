@@ -63,3 +63,4 @@ fastlane/test_output
 Pods
 DesignItKit.xcodeproj/xcuserdata
 Podfile.lock
+DesignItKit.xcworkspace
