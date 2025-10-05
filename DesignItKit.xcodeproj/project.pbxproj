@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4851004BFE0341DC89509653 /* Pods_DesignItKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C1EC7D709C9BABBAE5ECA2 /* Pods_DesignItKit.framework */; };
+		C6CBA36C3D3C0A54AD384E79 /* Pods_DesignItKit_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA7E62847F75A02BC926344 /* Pods_DesignItKit_Demo.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		336788F52E8EDA48007BA938 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -17,8 +22,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08F4D4CE51E21A993E079E4C /* Pods-DesignItKit-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignItKit-Demo.release.xcconfig"; path = "Target Support Files/Pods-DesignItKit-Demo/Pods-DesignItKit-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		10A05E376BE763ADE74683A1 /* Pods-DesignItKit-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignItKit-Demo.debug.xcconfig"; path = "Target Support Files/Pods-DesignItKit-Demo/Pods-DesignItKit-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		336788D02E8EDA17007BA938 /* DesignItKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignItKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		336788E02E8EDA3A007BA938 /* DesignItKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignItKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA7E62847F75A02BC926344 /* Pods_DesignItKit_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignItKit_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C1EC7D709C9BABBAE5ECA2 /* Pods_DesignItKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignItKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07A9C1F2634E4671CE77BFF /* Pods-DesignItKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignItKit.release.xcconfig"; path = "Target Support Files/Pods-DesignItKit/Pods-DesignItKit.release.xcconfig"; sourceTree = "<group>"; };
+		EDE4443A7C982569F077EF92 /* Pods-DesignItKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignItKit.debug.xcconfig"; path = "Target Support Files/Pods-DesignItKit/Pods-DesignItKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -34,6 +45,8 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		336788D22E8EDA17007BA938 /* DesignItKit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = DesignItKit;
 			sourceTree = "<group>";
 		};
@@ -52,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4851004BFE0341DC89509653 /* Pods_DesignItKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6CBA36C3D3C0A54AD384E79 /* Pods_DesignItKit_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +86,8 @@
 				336788D22E8EDA17007BA938 /* DesignItKit */,
 				336788E12E8EDA3A007BA938 /* DesignItKit-Demo */,
 				336788D12E8EDA17007BA938 /* Products */,
+				986DD2CB56B3F280A6B27459 /* Pods */,
+				BCA4BED600ED4EE5D6013CBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +98,26 @@
 				336788E02E8EDA3A007BA938 /* DesignItKit-Demo.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		986DD2CB56B3F280A6B27459 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDE4443A7C982569F077EF92 /* Pods-DesignItKit.debug.xcconfig */,
+				C07A9C1F2634E4671CE77BFF /* Pods-DesignItKit.release.xcconfig */,
+				10A05E376BE763ADE74683A1 /* Pods-DesignItKit-Demo.debug.xcconfig */,
+				08F4D4CE51E21A993E079E4C /* Pods-DesignItKit-Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCA4BED600ED4EE5D6013CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91C1EC7D709C9BABBAE5ECA2 /* Pods_DesignItKit.framework */,
+				3EA7E62847F75A02BC926344 /* Pods_DesignItKit_Demo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 336788D92E8EDA17007BA938 /* Build configuration list for PBXNativeTarget "DesignItKit" */;
 			buildPhases = (
+				17267AF23C7B08BC0CB476D2 /* [CP] Check Pods Manifest.lock */,
 				336788CB2E8EDA17007BA938 /* Headers */,
 				336788CC2E8EDA17007BA938 /* Sources */,
 				336788CD2E8EDA17007BA938 /* Frameworks */,
@@ -113,8 +151,6 @@
 				336788D22E8EDA17007BA938 /* DesignItKit */,
 			);
 			name = DesignItKit;
-			packageProductDependencies = (
-			);
 			productName = DesignItKit;
 			productReference = 336788D02E8EDA17007BA938 /* DesignItKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -123,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 336788F22E8EDA3B007BA938 /* Build configuration list for PBXNativeTarget "DesignItKit-Demo" */;
 			buildPhases = (
+				FD9BE83447986B5EF61DD28F /* [CP] Check Pods Manifest.lock */,
 				336788DC2E8EDA3A007BA938 /* Sources */,
 				336788DD2E8EDA3A007BA938 /* Frameworks */,
 				336788DE2E8EDA3A007BA938 /* Resources */,
+				ED395D0DE23B28FF119A5CAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,8 +174,6 @@
 				336788E12E8EDA3A007BA938 /* DesignItKit-Demo */,
 			);
 			name = "DesignItKit-Demo";
-			packageProductDependencies = (
-			);
 			productName = "DesignItKit-Demo";
 			productReference = 336788E02E8EDA3A007BA938 /* DesignItKit-Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -196,6 +232,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17267AF23C7B08BC0CB476D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesignItKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED395D0DE23B28FF119A5CAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesignItKit-Demo/Pods-DesignItKit-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesignItKit-Demo/Pods-DesignItKit-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesignItKit-Demo/Pods-DesignItKit-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9BE83447986B5EF61DD28F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesignItKit-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		336788CC2E8EDA17007BA938 /* Sources */ = {
@@ -352,6 +452,7 @@
 		};
 		336788DA2E8EDA17007BA938 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE4443A7C982569F077EF92 /* Pods-DesignItKit.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -364,6 +465,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,6 +487,7 @@
 		};
 		336788DB2E8EDA17007BA938 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07A9C1F2634E4671CE77BFF /* Pods-DesignItKit.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +500,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -418,6 +522,7 @@
 		};
 		336788F32E8EDA3B007BA938 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A05E376BE763ADE74683A1 /* Pods-DesignItKit-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,6 +551,7 @@
 		};
 		336788F42E8EDA3B007BA938 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F4D4CE51E21A993E079E4C /* Pods-DesignItKit-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
